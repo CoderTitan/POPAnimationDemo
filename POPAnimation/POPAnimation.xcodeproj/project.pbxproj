@@ -22,6 +22,8 @@
 		4714E62B1F91FFEE0097C070 /* WeiBoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4714E6291F91FFEE0097C070 /* WeiBoViewController.xib */; };
 		4714E62D1F9203440097C070 /* PublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714E62C1F9203440097C070 /* PublishView.swift */; };
 		4714E62F1F92034E0097C070 /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4714E62E1F92034E0097C070 /* PublishView.xib */; };
+		473195D71F94511C0023786A /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D61F94511C0023786A /* AppConstant.swift */; };
+		473195D91F9453A10023786A /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D81F9453A10023786A /* BaseButton.swift */; };
 		6435F4AB6BBDEC7580BB0E46 /* Pods_POPAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +35,6 @@
 		470941CE1F91A081001B2698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		470941D11F91A081001B2698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		470941D31F91A081001B2698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		470941DA1F91A0E9001B2698 /* POPAnimation-Bridging-Header.h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POPAnimation-Bridging-Header.h.h"; sourceTree = "<group>"; };
 		4714E6171F91A6350097C070 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		4714E6181F91A6350097C070 /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
 		4714E61B1F91A6670097C070 /* VolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +45,8 @@
 		4714E6291F91FFEE0097C070 /* WeiBoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeiBoViewController.xib; sourceTree = "<group>"; };
 		4714E62C1F9203440097C070 /* PublishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishView.swift; sourceTree = "<group>"; };
 		4714E62E1F92034E0097C070 /* PublishView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
+		473195D61F94511C0023786A /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		473195D81F9453A10023786A /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8481B9511A5747A7E388E9 /* Pods-POPAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		E96A68EFFB8A37BDCFD91363 /* Pods-POPAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +100,7 @@
 				4714E6161F91A5380097C070 /* 折叠图片 */,
 				470941C71F91A081001B2698 /* AppDelegate.swift */,
 				470941C91F91A081001B2698 /* ViewController.swift */,
-				470941DA1F91A0E9001B2698 /* POPAnimation-Bridging-Header.h.h */,
+				473195D61F94511C0023786A /* AppConstant.swift */,
 				470941CB1F91A081001B2698 /* Main.storyboard */,
 				470941CE1F91A081001B2698 /* Assets.xcassets */,
 				470941D01F91A081001B2698 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				4714E6291F91FFEE0097C070 /* WeiBoViewController.xib */,
 				4714E62C1F9203440097C070 /* PublishView.swift */,
 				4714E62E1F92034E0097C070 /* PublishView.xib */,
+				473195D81F9453A10023786A /* BaseButton.swift */,
 			);
 			path = "微博动画";
 			sourceTree = "<group>";
@@ -290,9 +294,11 @@
 				4714E61D1F91A6670097C070 /* VolumeViewController.swift in Sources */,
 				470941CA1F91A081001B2698 /* ViewController.swift in Sources */,
 				4714E62A1F91FFEE0097C070 /* WeiBoViewController.swift in Sources */,
+				473195D91F9453A10023786A /* BaseButton.swift in Sources */,
 				4714E6191F91A6350097C070 /* ActivityViewController.swift in Sources */,
 				470941C81F91A081001B2698 /* AppDelegate.swift in Sources */,
 				4714E62D1F9203440097C070 /* PublishView.swift in Sources */,
+				473195D71F94511C0023786A /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

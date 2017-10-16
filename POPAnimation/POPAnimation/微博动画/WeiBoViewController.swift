@@ -13,12 +13,14 @@ class WeiBoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
     @IBAction func publishAction(_ sender: Any) {
-        
-        
+        let publishV = PublishView.loadFromNib()
+        guard let window = UIApplication.shared.keyWindow else { return }
+        publishV.frame = window.bounds
+        window.addSubview(publishV)
     }
 
 }
