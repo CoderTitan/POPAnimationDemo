@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PictureViewController" customModule="POPAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomImage" destination="u6n-IG-4vC" id="raj-I9-O7c"/>
+                <outlet property="dragVIew" destination="CVb-vn-as1" id="nQr-pB-Xy3"/>
+                <outlet property="topImage" destination="oog-mW-2fh" id="bvQ-bB-Xrc"/>
+                <outlet property="view" destination="fGt-wg-r6h" id="uwh-gg-uCQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="fGt-wg-r6h">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1" translatesAutoresizingMaskIntoConstraints="NO" id="QFG-Kg-gPd">
+                    <rect key="frame" x="87" y="433" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="73C-5j-zLA"/>
+                        <constraint firstAttribute="height" constant="200" id="BnM-Of-X83"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1" translatesAutoresizingMaskIntoConstraints="NO" id="oog-mW-2fh">
+                    <rect key="frame" x="87" y="90" width="200" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Wdk-gh-1Br"/>
+                        <constraint firstAttribute="height" constant="100" id="gfW-mY-OCb"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1" translatesAutoresizingMaskIntoConstraints="NO" id="u6n-IG-4vC">
+                    <rect key="frame" x="87.5" y="90" width="200" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="0Yk-ml-T7h"/>
+                        <constraint firstAttribute="width" constant="200" id="AGS-Uo-rYh"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVb-vn-as1">
+                    <rect key="frame" x="87" y="40" width="200" height="200"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Kid-Qa-eTX"/>
+                        <constraint firstAttribute="height" constant="200" id="NeB-ff-RXP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.25409432790000003" green="0.98274616560000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="u6n-IG-4vC" firstAttribute="centerX" secondItem="fGt-wg-r6h" secondAttribute="centerX" id="8to-2h-aD0"/>
+                <constraint firstItem="CVb-vn-as1" firstAttribute="top" secondItem="Rhk-cR-agQ" secondAttribute="top" constant="20" id="8wa-di-61t"/>
+                <constraint firstItem="oog-mW-2fh" firstAttribute="top" secondItem="Rhk-cR-agQ" secondAttribute="top" constant="70" id="D5P-tE-MNH"/>
+                <constraint firstItem="Rhk-cR-agQ" firstAttribute="bottom" secondItem="QFG-Kg-gPd" secondAttribute="bottom" constant="34" id="FNd-PL-D1J"/>
+                <constraint firstItem="QFG-Kg-gPd" firstAttribute="centerX" secondItem="fGt-wg-r6h" secondAttribute="centerX" id="KBg-BB-TdZ"/>
+                <constraint firstItem="CVb-vn-as1" firstAttribute="centerX" secondItem="fGt-wg-r6h" secondAttribute="centerX" id="b2t-aW-Pub"/>
+                <constraint firstItem="oog-mW-2fh" firstAttribute="centerX" secondItem="fGt-wg-r6h" secondAttribute="centerX" id="ggx-IG-1th"/>
+                <constraint firstItem="u6n-IG-4vC" firstAttribute="top" secondItem="Rhk-cR-agQ" secondAttribute="top" constant="70" id="qcI-pL-kMJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Rhk-cR-agQ"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button1" width="200" height="200"/>
+    </resources>
+</document>
