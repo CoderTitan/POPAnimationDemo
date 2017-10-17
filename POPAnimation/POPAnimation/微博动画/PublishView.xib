@@ -15,10 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psm-1O-m3z">
-                    <rect key="frame" x="172" y="603" width="31" height="30"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="关闭">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psm-1O-m3z">
+                    <rect key="frame" x="163.5" y="584" width="49" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="1-1">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -32,6 +32,12 @@
                 <constraint firstItem="Psm-1O-m3z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="olB-SI-xld"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelBtn" destination="Psm-1O-m3z" id="evw-jK-VHA"/>
+            </connections>
         </view>
     </objects>
+    <resources>
+        <image name="1-1" width="49" height="49"/>
+    </resources>
 </document>

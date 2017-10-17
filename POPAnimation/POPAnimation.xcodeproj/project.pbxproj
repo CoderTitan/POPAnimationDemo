@@ -24,6 +24,13 @@
 		4714E62F1F92034E0097C070 /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4714E62E1F92034E0097C070 /* PublishView.xib */; };
 		473195D71F94511C0023786A /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D61F94511C0023786A /* AppConstant.swift */; };
 		473195D91F9453A10023786A /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D81F9453A10023786A /* BaseButton.swift */; };
+		473195DE1F9486C60023786A /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195DC1F9486C60023786A /* ClockViewController.swift */; };
+		473195DF1F9486C60023786A /* ClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473195DD1F9486C60023786A /* ClockViewController.xib */; };
+		473195E21F9486DF0023786A /* QQAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E01F9486DF0023786A /* QQAnimationViewController.swift */; };
+		473195E31F9486DF0023786A /* QQAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473195E11F9486DF0023786A /* QQAnimationViewController.xib */; };
+		473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E61F948C0E0023786A /* AnimationExtension.swift */; };
+		473195E91F95907B0023786A /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E81F95907B0023786A /* PointButton.swift */; };
+		473195EB1F95CC4C0023786A /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195EA1F95CC4C0023786A /* LikeView.swift */; };
 		6435F4AB6BBDEC7580BB0E46 /* Pods_POPAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +54,13 @@
 		4714E62E1F92034E0097C070 /* PublishView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
 		473195D61F94511C0023786A /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		473195D81F9453A10023786A /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		473195DC1F9486C60023786A /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		473195DD1F9486C60023786A /* ClockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockViewController.xib; sourceTree = "<group>"; };
+		473195E01F9486DF0023786A /* QQAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQAnimationViewController.swift; sourceTree = "<group>"; };
+		473195E11F9486DF0023786A /* QQAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQAnimationViewController.xib; sourceTree = "<group>"; };
+		473195E61F948C0E0023786A /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		473195E81F95907B0023786A /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
+		473195EA1F95CC4C0023786A /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8481B9511A5747A7E388E9 /* Pods-POPAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		E96A68EFFB8A37BDCFD91363 /* Pods-POPAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +108,8 @@
 		470941C61F91A081001B2698 /* POPAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				473195DA1F9486AF0023786A /* 倒计时-计时器 */,
+				473195DB1F9486AF0023786A /* QQ粘性动画 */,
 				4714E6271F91FFDE0097C070 /* 微博动画 */,
 				4714E6141F91A5380097C070 /* 活动指示器 */,
 				4714E6151F91A5380097C070 /* 音量震动条 */,
@@ -146,6 +162,27 @@
 				473195D81F9453A10023786A /* BaseButton.swift */,
 			);
 			path = "微博动画";
+			sourceTree = "<group>";
+		};
+		473195DA1F9486AF0023786A /* 倒计时-计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				473195DC1F9486C60023786A /* ClockViewController.swift */,
+				473195DD1F9486C60023786A /* ClockViewController.xib */,
+			);
+			path = "倒计时-计时器";
+			sourceTree = "<group>";
+		};
+		473195DB1F9486AF0023786A /* QQ粘性动画 */ = {
+			isa = PBXGroup;
+			children = (
+				473195E01F9486DF0023786A /* QQAnimationViewController.swift */,
+				473195E11F9486DF0023786A /* QQAnimationViewController.xib */,
+				473195EA1F95CC4C0023786A /* LikeView.swift */,
+				473195E81F95907B0023786A /* PointButton.swift */,
+				473195E61F948C0E0023786A /* AnimationExtension.swift */,
+			);
+			path = "QQ粘性动画";
 			sourceTree = "<group>";
 		};
 		78EA6AB8782A1BA633E53E30 /* Frameworks */ = {
@@ -221,11 +258,13 @@
 				470941D21F91A081001B2698 /* LaunchScreen.storyboard in Resources */,
 				470941CF1F91A081001B2698 /* Assets.xcassets in Resources */,
 				4714E62F1F92034E0097C070 /* PublishView.xib in Resources */,
+				473195E31F9486DF0023786A /* QQAnimationViewController.xib in Resources */,
 				4714E6261F91B2310097C070 /* PictureViewController.xib in Resources */,
 				4714E61E1F91A6670097C070 /* VolumeViewController.xib in Resources */,
 				470941CD1F91A081001B2698 /* Main.storyboard in Resources */,
 				4714E61A1F91A6350097C070 /* ActivityViewController.xib in Resources */,
 				4714E62B1F91FFEE0097C070 /* WeiBoViewController.xib in Resources */,
+				473195DF1F9486C60023786A /* ClockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473195E91F95907B0023786A /* PointButton.swift in Sources */,
 				4714E6251F91B2310097C070 /* PictureViewController.swift in Sources */,
 				4714E61D1F91A6670097C070 /* VolumeViewController.swift in Sources */,
 				470941CA1F91A081001B2698 /* ViewController.swift in Sources */,
+				473195DE1F9486C60023786A /* ClockViewController.swift in Sources */,
 				4714E62A1F91FFEE0097C070 /* WeiBoViewController.swift in Sources */,
+				473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */,
+				473195EB1F95CC4C0023786A /* LikeView.swift in Sources */,
+				473195E21F9486DF0023786A /* QQAnimationViewController.swift in Sources */,
 				473195D91F9453A10023786A /* BaseButton.swift in Sources */,
 				4714E6191F91A6350097C070 /* ActivityViewController.swift in Sources */,
 				470941C81F91A081001B2698 /* AppDelegate.swift in Sources */,
@@ -437,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39D8T9VWXG;
 				INFOPLIST_FILE = POPAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-tian.rxswift.POPAnimation";
@@ -452,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39D8T9VWXG;
 				INFOPLIST_FILE = POPAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-tian.rxswift.POPAnimation";

@@ -50,25 +50,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIf-uU-DAS">
-                                <rect key="frame" x="164" y="294" width="46" height="30"/>
+                                <rect key="frame" x="137.5" y="294" width="99" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="倒计时-计时器"/>
                                 <connections>
                                     <action selector="button5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GrP-gV-39g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHR-0J-ZP7">
-                                <rect key="frame" x="164" y="344" width="46" height="30"/>
+                                <rect key="frame" x="145" y="344" width="84" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="QQ粘性动画"/>
                                 <connections>
                                     <action selector="button6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AjY-f0-QrK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84C-1I-Zx8">
-                                <rect key="frame" x="164" y="394" width="46" height="30"/>
+                                <rect key="frame" x="156" y="394" width="62" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="雷达动画"/>
                                 <connections>
                                     <action selector="button7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NAz-1y-WHk"/>
                                 </connections>

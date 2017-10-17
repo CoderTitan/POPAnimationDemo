@@ -13,11 +13,13 @@ fileprivate let kAnimationDelay = 0.1
 fileprivate let kSpringFactor: CGFloat = 10
 class PublishView: UIView {
 
+    @IBOutlet weak var cancelBtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         
         //0. 设置背景
         backgroundColor = UIColor(white: 0.8, alpha: 0.9)
+        cancelBtn.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) / 4)
         
         //1. 设置相关view不能被点击
         kRootView?.isUserInteractionEnabled = false
@@ -76,7 +78,7 @@ class PublishView: UIView {
         
         //z执行动画
         let imagePOP = POPSpringAnimation(propertyNamed: kPOPViewCenter)
-        imagePOP?.fromValue = CGPoint(x: kScreenWidth * 0.5, y: -0.8 * kScreenHeight)
+        imagePOP?.fromValue = CGPoint(x: kScreenWidth * 0.5, y: 0.2 * kScreenHeight - kScreenHeight)
         imagePOP?.toValue = CGPoint(x: kScreenWidth * 0.5, y: 0.2 * kScreenHeight)
         imagePOP?.springSpeed = kSpringFactor
         imagePOP?.springBounciness = kSpringFactor
