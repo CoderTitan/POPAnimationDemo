@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import pop
 
 //中间圆的宽高
 fileprivate let kCircleSize: CGFloat = 50
