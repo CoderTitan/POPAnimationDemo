@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button7Action(_ sender: Any) {
-        navigationController?.pushViewController(WeiBoViewController(), animated: true)
+        navigationController?.pushViewController(RadarViewController(), animated: true)
     }
     
 }

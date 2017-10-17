@@ -22,6 +22,9 @@
 		4714E62B1F91FFEE0097C070 /* WeiBoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4714E6291F91FFEE0097C070 /* WeiBoViewController.xib */; };
 		4714E62D1F9203440097C070 /* PublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714E62C1F9203440097C070 /* PublishView.swift */; };
 		4714E62F1F92034E0097C070 /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4714E62E1F92034E0097C070 /* PublishView.xib */; };
+		47281BFB1F95D72500E9342F /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47281BF91F95D72500E9342F /* RadarViewController.swift */; };
+		47281BFC1F95D72500E9342F /* RadarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47281BFA1F95D72500E9342F /* RadarViewController.xib */; };
+		47281BFE1F95DB3200E9342F /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47281BFD1F95DB3200E9342F /* RadarView.swift */; };
 		473195D71F94511C0023786A /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D61F94511C0023786A /* AppConstant.swift */; };
 		473195D91F9453A10023786A /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195D81F9453A10023786A /* BaseButton.swift */; };
 		473195DE1F9486C60023786A /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195DC1F9486C60023786A /* ClockViewController.swift */; };
@@ -52,6 +55,9 @@
 		4714E6291F91FFEE0097C070 /* WeiBoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeiBoViewController.xib; sourceTree = "<group>"; };
 		4714E62C1F9203440097C070 /* PublishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishView.swift; sourceTree = "<group>"; };
 		4714E62E1F92034E0097C070 /* PublishView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
+		47281BF91F95D72500E9342F /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
+		47281BFA1F95D72500E9342F /* RadarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarViewController.xib; sourceTree = "<group>"; };
+		47281BFD1F95DB3200E9342F /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		473195D61F94511C0023786A /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		473195D81F9453A10023786A /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		473195DC1F9486C60023786A /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +114,7 @@
 		470941C61F91A081001B2698 /* POPAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				47281BF81F95D70200E9342F /* 雷达-水波纹动画 */,
 				473195DA1F9486AF0023786A /* 倒计时-计时器 */,
 				473195DB1F9486AF0023786A /* QQ粘性动画 */,
 				4714E6271F91FFDE0097C070 /* 微博动画 */,
@@ -162,6 +169,16 @@
 				473195D81F9453A10023786A /* BaseButton.swift */,
 			);
 			path = "微博动画";
+			sourceTree = "<group>";
+		};
+		47281BF81F95D70200E9342F /* 雷达-水波纹动画 */ = {
+			isa = PBXGroup;
+			children = (
+				47281BF91F95D72500E9342F /* RadarViewController.swift */,
+				47281BFA1F95D72500E9342F /* RadarViewController.xib */,
+				47281BFD1F95DB3200E9342F /* RadarView.swift */,
+			);
+			path = "雷达-水波纹动画";
 			sourceTree = "<group>";
 		};
 		473195DA1F9486AF0023786A /* 倒计时-计时器 */ = {
@@ -255,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47281BFC1F95D72500E9342F /* RadarViewController.xib in Resources */,
 				470941D21F91A081001B2698 /* LaunchScreen.storyboard in Resources */,
 				470941CF1F91A081001B2698 /* Assets.xcassets in Resources */,
 				4714E62F1F92034E0097C070 /* PublishView.xib in Resources */,
@@ -337,12 +355,14 @@
 				4714E62A1F91FFEE0097C070 /* WeiBoViewController.swift in Sources */,
 				473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */,
 				473195EB1F95CC4C0023786A /* LikeView.swift in Sources */,
+				47281BFB1F95D72500E9342F /* RadarViewController.swift in Sources */,
 				473195E21F9486DF0023786A /* QQAnimationViewController.swift in Sources */,
 				473195D91F9453A10023786A /* BaseButton.swift in Sources */,
 				4714E6191F91A6350097C070 /* ActivityViewController.swift in Sources */,
 				470941C81F91A081001B2698 /* AppDelegate.swift in Sources */,
 				4714E62D1F9203440097C070 /* PublishView.swift in Sources */,
 				473195D71F94511C0023786A /* AppConstant.swift in Sources */,
+				47281BFE1F95DB3200E9342F /* RadarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
