@@ -20,6 +20,7 @@ class PictureViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "折叠图片"
 
         // 一张图片必须要通过两个控件展示，旋转的时候，只旋转上部分控件
         

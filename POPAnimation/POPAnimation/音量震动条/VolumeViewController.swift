@@ -14,6 +14,7 @@ class VolumeViewController: UIViewController {
     @IBOutlet weak var lightView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "音量震动条"
 
         // CAReplicatorLayer复制图层，可以把图层里面所有子层复制
         //1. 创建复制图层

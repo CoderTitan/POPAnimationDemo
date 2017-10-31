@@ -13,7 +13,8 @@ class ActivityViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "活动指示器"
+        
         //1. 创建复制图层
         let repLayer = CAReplicatorLayer()
         repLayer.frame = CGRect(x: 100, y: 100, width: 200, height: 200)

@@ -12,6 +12,7 @@ class RadarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "雷达动画"
         view.backgroundColor = UIColor.white
 
 //        let shapeLayer = CAShapeLayer()

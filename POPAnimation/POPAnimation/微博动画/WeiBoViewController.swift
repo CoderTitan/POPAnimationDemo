@@ -12,7 +12,7 @@ class WeiBoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "微博动画"
         
     }
 

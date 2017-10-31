@@ -12,6 +12,7 @@ class QQAnimationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "QQ粘性动画"
         view.backgroundColor = UIColor.white
         
         let pointBtn = PointButton(frame: CGRect(x: kScreenWidth / 2 - 50, y: 150, width: 20, height: 20))

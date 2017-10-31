@@ -12,40 +12,38 @@ import pop
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var pictureBtn: UIButton!
+    @IBOutlet weak var tableView: UITableView!
+    fileprivate var titleArray = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-    }
+        title = "动画列表"
+        title = "跑马灯效果"
 
-    @IBAction func button1Action(_ sender: Any) {
-        navigationController?.pushViewController(PictureViewController(), animated: true)
+        let titles = ["折叠图片", "音量震动条", "活动指示器", "微博动画", "倒计时-计时器", "QQ粘性动画", "雷达动画", "跑马灯效果"]
+        titleArray = titles
     }
-
-    @IBAction func button2Action(_ sender: Any) {
-        navigationController?.pushViewController(VolumeViewController(), animated: true)
-    }
-    
-    @IBAction func button3Action(_ sender: Any) {
-        navigationController?.pushViewController(ActivityViewController(), animated: true)
-    }
-    
-    @IBAction func button4Action(_ sender: Any) {
-        navigationController?.pushViewController(WeiBoViewController(), animated: true)
-    }
-    
-    @IBAction func button5Action(_ sender: Any) {
-        navigationController?.pushViewController(ClockViewController(), animated: true)
-    }
-    
-    @IBAction func button6Action(_ sender: Any) {
-        navigationController?.pushViewController(QQAnimationViewController(), animated: true)
-    }
-    
-    @IBAction func button7Action(_ sender: Any) {
-        navigationController?.pushViewController(RadarViewController(), animated: true)
-    }
-    
 }
 
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return titleArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        }
+        cell?.textLabel?.text = titleArray[indexPath.row]
+        return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vcArr = [PictureViewController(), VolumeViewController(), ActivityViewController(), WeiBoViewController(), ClockViewController(), QQAnimationViewController(), RadarViewController(), CarouseViewController()]
+        let vc = vcArr[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}

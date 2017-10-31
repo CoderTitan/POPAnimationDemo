@@ -14,7 +14,8 @@ class ClockViewController: UIViewController {
     @IBOutlet weak var clockLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "倒计时-计时器"
+        
         //因初始化的对象为可选类型,官方推荐初始化用if判断
         //官方推荐初始化方式
          if let proper = POPAnimatableProperty.property(withName: "prop", initializer: { (prop) in
