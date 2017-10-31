@@ -8,6 +8,10 @@
 
 import UIKit
 
+enum JunTitleType {
+    case statical //静态
+    case carousel //动态
+}
 
 class CarouseAnimationView: UIView {
     
@@ -81,12 +85,12 @@ extension CarouseAnimationView {
     
     //动画展示, 无限递归
     fileprivate func addCarouselAnimation(_ duration: TimeInterval){
+        firseLabel.frame.origin.x = 0
+        secondLabel.frame.origin.x = firseLabel.frame.maxX
         UIView.transition(with: self, duration: duration, options: .curveLinear, animations: {
             self.firseLabel.frame.origin.x -= self.firseLabel.frame.width
             self.secondLabel.frame.origin.x = self.firseLabel.frame.maxX
         }) { (true) in
-            self.firseLabel.frame.origin.x = 0
-            self.secondLabel.frame.origin.x = self.firseLabel.frame.maxX
             self.addCarouselAnimation(duration)
         }
     }

@@ -34,6 +34,8 @@
 		473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E61F948C0E0023786A /* AnimationExtension.swift */; };
 		473195E91F95907B0023786A /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E81F95907B0023786A /* PointButton.swift */; };
 		473195EB1F95CC4C0023786A /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195EA1F95CC4C0023786A /* LikeView.swift */; };
+		474E870F1FA8558E000A9AB6 /* WaterWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */; };
+		474E87111FA855AC000A9AB6 /* WaterWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */; };
 		47F098051FA722E800810E2F /* CarouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098041FA722E800810E2F /* CarouseViewController.swift */; };
 		47F098071FA7230300810E2F /* CarouseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098061FA7230300810E2F /* CarouseAnimationView.swift */; };
 		6435F4AB6BBDEC7580BB0E46 /* Pods_POPAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */; };
@@ -69,6 +71,8 @@
 		473195E61F948C0E0023786A /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		473195E81F95907B0023786A /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 		473195EA1F95CC4C0023786A /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveAnimationView.swift; sourceTree = "<group>"; };
+		474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveViewController.swift; sourceTree = "<group>"; };
 		47F098041FA722E800810E2F /* CarouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseViewController.swift; sourceTree = "<group>"; };
 		47F098061FA7230300810E2F /* CarouseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseAnimationView.swift; sourceTree = "<group>"; };
 		524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +122,7 @@
 		470941C61F91A081001B2698 /* POPAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				474E870D1FA8556A000A9AB6 /* 水波纹效果 */,
 				47F097FF1FA71CED00810E2F /* 跑马灯效果 */,
 				47281BF81F95D70200E9342F /* 雷达-水波纹动画 */,
 				473195DA1F9486AF0023786A /* 倒计时-计时器 */,
@@ -205,6 +210,15 @@
 				473195E61F948C0E0023786A /* AnimationExtension.swift */,
 			);
 			path = "QQ粘性动画";
+			sourceTree = "<group>";
+		};
+		474E870D1FA8556A000A9AB6 /* 水波纹效果 */ = {
+			isa = PBXGroup;
+			children = (
+				474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */,
+				474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */,
+			);
+			path = "水波纹效果";
 			sourceTree = "<group>";
 		};
 		47F097FF1FA71CED00810E2F /* 跑马灯效果 */ = {
@@ -378,7 +392,9 @@
 				470941C81F91A081001B2698 /* AppDelegate.swift in Sources */,
 				4714E62D1F9203440097C070 /* PublishView.swift in Sources */,
 				473195D71F94511C0023786A /* AppConstant.swift in Sources */,
+				474E87111FA855AC000A9AB6 /* WaterWaveViewController.swift in Sources */,
 				47281BFE1F95DB3200E9342F /* RadarView.swift in Sources */,
+				474E870F1FA8558E000A9AB6 /* WaterWaveAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
