@@ -39,6 +39,8 @@
 		47F098051FA722E800810E2F /* CarouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098041FA722E800810E2F /* CarouseViewController.swift */; };
 		47F098071FA7230300810E2F /* CarouseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098061FA7230300810E2F /* CarouseAnimationView.swift */; };
 		6435F4AB6BBDEC7580BB0E46 /* Pods_POPAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */; };
+		777044A02024309A0028F690 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770449E2024309A0028F690 /* TextViewController.swift */; };
+		777044A12024309A0028F690 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7770449F2024309A0028F690 /* TextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		47F098041FA722E800810E2F /* CarouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseViewController.swift; sourceTree = "<group>"; };
 		47F098061FA7230300810E2F /* CarouseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseAnimationView.swift; sourceTree = "<group>"; };
 		524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7770449E2024309A0028F690 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		7770449F2024309A0028F690 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 		DB8481B9511A5747A7E388E9 /* Pods-POPAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		E96A68EFFB8A37BDCFD91363 /* Pods-POPAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +126,7 @@
 		470941C61F91A081001B2698 /* POPAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7770449D2024306F0028F690 /* 文字渐变效果 */,
 				474E870D1FA8556A000A9AB6 /* 水波纹效果 */,
 				47F097FF1FA71CED00810E2F /* 跑马灯效果 */,
 				47281BF81F95D70200E9342F /* 雷达-水波纹动画 */,
@@ -230,6 +235,15 @@
 			path = "跑马灯效果";
 			sourceTree = "<group>";
 		};
+		7770449D2024306F0028F690 /* 文字渐变效果 */ = {
+			isa = PBXGroup;
+			children = (
+				7770449E2024309A0028F690 /* TextViewController.swift */,
+				7770449F2024309A0028F690 /* TextViewController.xib */,
+			);
+			path = "文字渐变效果";
+			sourceTree = "<group>";
+		};
 		78EA6AB8782A1BA633E53E30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +317,7 @@
 				47281BFC1F95D72500E9342F /* RadarViewController.xib in Resources */,
 				470941D21F91A081001B2698 /* LaunchScreen.storyboard in Resources */,
 				470941CF1F91A081001B2698 /* Assets.xcassets in Resources */,
+				777044A12024309A0028F690 /* TextViewController.xib in Resources */,
 				4714E62F1F92034E0097C070 /* PublishView.xib in Resources */,
 				473195E31F9486DF0023786A /* QQAnimationViewController.xib in Resources */,
 				4714E6261F91B2310097C070 /* PictureViewController.xib in Resources */,
@@ -380,6 +395,7 @@
 				4714E61D1F91A6670097C070 /* VolumeViewController.swift in Sources */,
 				470941CA1F91A081001B2698 /* ViewController.swift in Sources */,
 				473195DE1F9486C60023786A /* ClockViewController.swift in Sources */,
+				777044A02024309A0028F690 /* TextViewController.swift in Sources */,
 				4714E62A1F91FFEE0097C070 /* WeiBoViewController.swift in Sources */,
 				473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */,
 				473195EB1F95CC4C0023786A /* LikeView.swift in Sources */,
