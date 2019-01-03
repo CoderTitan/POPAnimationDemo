@@ -34,13 +34,25 @@
 		473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E61F948C0E0023786A /* AnimationExtension.swift */; };
 		473195E91F95907B0023786A /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195E81F95907B0023786A /* PointButton.swift */; };
 		473195EB1F95CC4C0023786A /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473195EA1F95CC4C0023786A /* LikeView.swift */; };
-		474E870F1FA8558E000A9AB6 /* WaterWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */; };
-		474E87111FA855AC000A9AB6 /* WaterWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */; };
+		474E870F1FA8558E000A9AB6 /* TKWaterWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E870E1FA8558E000A9AB6 /* TKWaterWaveAnimationView.swift */; };
+		474E87111FA855AC000A9AB6 /* TKWaterWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474E87101FA855AC000A9AB6 /* TKWaterWaveViewController.swift */; };
 		47F098051FA722E800810E2F /* CarouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098041FA722E800810E2F /* CarouseViewController.swift */; };
 		47F098071FA7230300810E2F /* CarouseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F098061FA7230300810E2F /* CarouseAnimationView.swift */; };
 		6435F4AB6BBDEC7580BB0E46 /* Pods_POPAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */; };
 		777044A02024309A0028F690 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770449E2024309A0028F690 /* TextViewController.swift */; };
 		777044A12024309A0028F690 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7770449F2024309A0028F690 /* TextViewController.xib */; };
+		77CF4B4621CA4514004EDDCE /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4B4521CA4514004EDDCE /* BaseTableViewController.swift */; };
+		77CF4B4821CA458E004EDDCE /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4B4721CA458E004EDDCE /* OtherViewController.swift */; };
+		77CF4B4A21CA45BA004EDDCE /* CAAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4B4921CA45BA004EDDCE /* CAAnimationController.swift */; };
+		77CF4B4C21CA45CD004EDDCE /* POPAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4B4B21CA45CD004EDDCE /* POPAnimationController.swift */; };
+		77CF4B5321CA5ACE004EDDCE /* WaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4B5221CA5ACE004EDDCE /* WaterWaveView.swift */; };
+		77DB22E921CB39E100D44F3C /* WaterWaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22E721CB39E100D44F3C /* WaterWaveController.swift */; };
+		77DB22EA21CB39E100D44F3C /* WaterWaveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DB22E821CB39E100D44F3C /* WaterWaveController.xib */; };
+		77DB22EF21CB3CC500D44F3C /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22EE21CB3CC500D44F3C /* ParticleViewController.swift */; };
+		77DB22F121CB3CEC00D44F3C /* LoadTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22F021CB3CEC00D44F3C /* LoadTableCellController.swift */; };
+		77DB22F321CB3D1C00D44F3C /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22F221CB3D1C00D44F3C /* TransferViewController.swift */; };
+		77DB22F521CB3E0F00D44F3C /* LoadCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22F421CB3E0F00D44F3C /* LoadCellViewController.swift */; };
+		77DB22F721CB47D800D44F3C /* PushTransViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB22F621CB47D800D44F3C /* PushTransViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,13 +85,25 @@
 		473195E61F948C0E0023786A /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		473195E81F95907B0023786A /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 		473195EA1F95CC4C0023786A /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
-		474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveAnimationView.swift; sourceTree = "<group>"; };
-		474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveViewController.swift; sourceTree = "<group>"; };
+		474E870E1FA8558E000A9AB6 /* TKWaterWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKWaterWaveAnimationView.swift; sourceTree = "<group>"; };
+		474E87101FA855AC000A9AB6 /* TKWaterWaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKWaterWaveViewController.swift; sourceTree = "<group>"; };
 		47F098041FA722E800810E2F /* CarouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseViewController.swift; sourceTree = "<group>"; };
 		47F098061FA7230300810E2F /* CarouseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseAnimationView.swift; sourceTree = "<group>"; };
 		524294C0D2A2B1EB04C43B25 /* Pods_POPAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7770449E2024309A0028F690 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		7770449F2024309A0028F690 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		77CF4B4521CA4514004EDDCE /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		77CF4B4721CA458E004EDDCE /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		77CF4B4921CA45BA004EDDCE /* CAAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAnimationController.swift; sourceTree = "<group>"; };
+		77CF4B4B21CA45CD004EDDCE /* POPAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPAnimationController.swift; sourceTree = "<group>"; };
+		77CF4B5221CA5ACE004EDDCE /* WaterWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveView.swift; sourceTree = "<group>"; };
+		77DB22E721CB39E100D44F3C /* WaterWaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveController.swift; sourceTree = "<group>"; };
+		77DB22E821CB39E100D44F3C /* WaterWaveController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterWaveController.xib; sourceTree = "<group>"; };
+		77DB22EE21CB3CC500D44F3C /* ParticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
+		77DB22F021CB3CEC00D44F3C /* LoadTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTableCellController.swift; sourceTree = "<group>"; };
+		77DB22F221CB3D1C00D44F3C /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		77DB22F421CB3E0F00D44F3C /* LoadCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCellViewController.swift; sourceTree = "<group>"; };
+		77DB22F621CB47D800D44F3C /* PushTransViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransViewController.swift; sourceTree = "<group>"; };
 		DB8481B9511A5747A7E388E9 /* Pods-POPAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		E96A68EFFB8A37BDCFD91363 /* Pods-POPAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPAnimation/Pods-POPAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,19 +150,16 @@
 		470941C61F91A081001B2698 /* POPAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				7770449D2024306F0028F690 /* 文字渐变效果 */,
-				474E870D1FA8556A000A9AB6 /* 水波纹效果 */,
-				47F097FF1FA71CED00810E2F /* 跑马灯效果 */,
-				47281BF81F95D70200E9342F /* 雷达-水波纹动画 */,
-				473195DA1F9486AF0023786A /* 倒计时-计时器 */,
-				473195DB1F9486AF0023786A /* QQ粘性动画 */,
-				4714E6271F91FFDE0097C070 /* 微博动画 */,
-				4714E6141F91A5380097C070 /* 活动指示器 */,
-				4714E6151F91A5380097C070 /* 音量震动条 */,
-				4714E6161F91A5380097C070 /* 折叠图片 */,
+				77DB22ED21CB3C8F00D44F3C /* 粒子动画 */,
+				77DB22EB21CB3C8F00D44F3C /* 列表加载动画 */,
+				77DB22EC21CB3C8F00D44F3C /* 转场动画 */,
+				77CF4B4321CA31F4004EDDCE /* 其他动画 */,
+				77CF4B4421CA31F4004EDDCE /* CAAnimation动画 */,
+				77CF4B4221CA314A004EDDCE /* POP动画 */,
 				470941C71F91A081001B2698 /* AppDelegate.swift */,
 				470941C91F91A081001B2698 /* ViewController.swift */,
 				473195D61F94511C0023786A /* AppConstant.swift */,
+				77CF4B4521CA4514004EDDCE /* BaseTableViewController.swift */,
 				470941CB1F91A081001B2698 /* Main.storyboard */,
 				470941CE1F91A081001B2698 /* Assets.xcassets */,
 				470941D01F91A081001B2698 /* LaunchScreen.storyboard */,
@@ -217,13 +238,13 @@
 			path = "QQ粘性动画";
 			sourceTree = "<group>";
 		};
-		474E870D1FA8556A000A9AB6 /* 水波纹效果 */ = {
+		474E870D1FA8556A000A9AB6 /* 录音动画效果 */ = {
 			isa = PBXGroup;
 			children = (
-				474E87101FA855AC000A9AB6 /* WaterWaveViewController.swift */,
-				474E870E1FA8558E000A9AB6 /* WaterWaveAnimationView.swift */,
+				474E87101FA855AC000A9AB6 /* TKWaterWaveViewController.swift */,
+				474E870E1FA8558E000A9AB6 /* TKWaterWaveAnimationView.swift */,
 			);
-			path = "水波纹效果";
+			path = "录音动画效果";
 			sourceTree = "<group>";
 		};
 		47F097FF1FA71CED00810E2F /* 跑马灯效果 */ = {
@@ -242,6 +263,77 @@
 				7770449F2024309A0028F690 /* TextViewController.xib */,
 			);
 			path = "文字渐变效果";
+			sourceTree = "<group>";
+		};
+		77CF4B4221CA314A004EDDCE /* POP动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77CF4B4B21CA45CD004EDDCE /* POPAnimationController.swift */,
+				4714E6161F91A5380097C070 /* 折叠图片 */,
+				4714E6151F91A5380097C070 /* 音量震动条 */,
+				4714E6141F91A5380097C070 /* 活动指示器 */,
+				4714E6271F91FFDE0097C070 /* 微博动画 */,
+				47281BF81F95D70200E9342F /* 雷达-水波纹动画 */,
+				473195DA1F9486AF0023786A /* 倒计时-计时器 */,
+			);
+			path = "POP动画";
+			sourceTree = "<group>";
+		};
+		77CF4B4321CA31F4004EDDCE /* 其他动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77CF4B4721CA458E004EDDCE /* OtherViewController.swift */,
+				7770449D2024306F0028F690 /* 文字渐变效果 */,
+			);
+			path = "其他动画";
+			sourceTree = "<group>";
+		};
+		77CF4B4421CA31F4004EDDCE /* CAAnimation动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77CF4B4921CA45BA004EDDCE /* CAAnimationController.swift */,
+				77CF4B4D21CA57AA004EDDCE /* 水波纹动画 */,
+				474E870D1FA8556A000A9AB6 /* 录音动画效果 */,
+				47F097FF1FA71CED00810E2F /* 跑马灯效果 */,
+				473195DB1F9486AF0023786A /* QQ粘性动画 */,
+			);
+			path = "CAAnimation动画";
+			sourceTree = "<group>";
+		};
+		77CF4B4D21CA57AA004EDDCE /* 水波纹动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77CF4B5221CA5ACE004EDDCE /* WaterWaveView.swift */,
+				77DB22E721CB39E100D44F3C /* WaterWaveController.swift */,
+				77DB22E821CB39E100D44F3C /* WaterWaveController.xib */,
+			);
+			path = "水波纹动画";
+			sourceTree = "<group>";
+		};
+		77DB22EB21CB3C8F00D44F3C /* 列表加载动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77DB22F021CB3CEC00D44F3C /* LoadTableCellController.swift */,
+				77DB22F421CB3E0F00D44F3C /* LoadCellViewController.swift */,
+			);
+			path = "列表加载动画";
+			sourceTree = "<group>";
+		};
+		77DB22EC21CB3C8F00D44F3C /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77DB22F221CB3D1C00D44F3C /* TransferViewController.swift */,
+				77DB22F621CB47D800D44F3C /* PushTransViewController.swift */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		77DB22ED21CB3C8F00D44F3C /* 粒子动画 */ = {
+			isa = PBXGroup;
+			children = (
+				77DB22EE21CB3CC500D44F3C /* ParticleViewController.swift */,
+			);
+			path = "粒子动画";
 			sourceTree = "<group>";
 		};
 		78EA6AB8782A1BA633E53E30 /* Frameworks */ = {
@@ -319,6 +411,7 @@
 				470941CF1F91A081001B2698 /* Assets.xcassets in Resources */,
 				777044A12024309A0028F690 /* TextViewController.xib in Resources */,
 				4714E62F1F92034E0097C070 /* PublishView.xib in Resources */,
+				77DB22EA21CB39E100D44F3C /* WaterWaveController.xib in Resources */,
 				473195E31F9486DF0023786A /* QQAnimationViewController.xib in Resources */,
 				4714E6261F91B2310097C070 /* PictureViewController.xib in Resources */,
 				4714E61E1F91A6670097C070 /* VolumeViewController.xib in Resources */,
@@ -391,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				473195E91F95907B0023786A /* PointButton.swift in Sources */,
+				77DB22F321CB3D1C00D44F3C /* TransferViewController.swift in Sources */,
 				4714E6251F91B2310097C070 /* PictureViewController.swift in Sources */,
 				4714E61D1F91A6670097C070 /* VolumeViewController.swift in Sources */,
 				470941CA1F91A081001B2698 /* ViewController.swift in Sources */,
@@ -400,17 +494,27 @@
 				473195E71F948C0E0023786A /* AnimationExtension.swift in Sources */,
 				473195EB1F95CC4C0023786A /* LikeView.swift in Sources */,
 				47281BFB1F95D72500E9342F /* RadarViewController.swift in Sources */,
+				77DB22F121CB3CEC00D44F3C /* LoadTableCellController.swift in Sources */,
 				47F098051FA722E800810E2F /* CarouseViewController.swift in Sources */,
+				77CF4B4821CA458E004EDDCE /* OtherViewController.swift in Sources */,
 				47F098071FA7230300810E2F /* CarouseAnimationView.swift in Sources */,
 				473195E21F9486DF0023786A /* QQAnimationViewController.swift in Sources */,
+				77DB22F521CB3E0F00D44F3C /* LoadCellViewController.swift in Sources */,
+				77DB22E921CB39E100D44F3C /* WaterWaveController.swift in Sources */,
+				77CF4B4A21CA45BA004EDDCE /* CAAnimationController.swift in Sources */,
+				77CF4B4C21CA45CD004EDDCE /* POPAnimationController.swift in Sources */,
 				473195D91F9453A10023786A /* BaseButton.swift in Sources */,
 				4714E6191F91A6350097C070 /* ActivityViewController.swift in Sources */,
 				470941C81F91A081001B2698 /* AppDelegate.swift in Sources */,
 				4714E62D1F9203440097C070 /* PublishView.swift in Sources */,
 				473195D71F94511C0023786A /* AppConstant.swift in Sources */,
-				474E87111FA855AC000A9AB6 /* WaterWaveViewController.swift in Sources */,
+				77DB22EF21CB3CC500D44F3C /* ParticleViewController.swift in Sources */,
+				474E87111FA855AC000A9AB6 /* TKWaterWaveViewController.swift in Sources */,
 				47281BFE1F95DB3200E9342F /* RadarView.swift in Sources */,
-				474E870F1FA8558E000A9AB6 /* WaterWaveAnimationView.swift in Sources */,
+				77CF4B5321CA5ACE004EDDCE /* WaterWaveView.swift in Sources */,
+				77CF4B4621CA4514004EDDCE /* BaseTableViewController.swift in Sources */,
+				474E870F1FA8558E000A9AB6 /* TKWaterWaveAnimationView.swift in Sources */,
+				77DB22F721CB47D800D44F3C /* PushTransViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

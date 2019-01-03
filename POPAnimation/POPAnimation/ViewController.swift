@@ -19,9 +19,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         title = "动画列表"
-
-        let titles = ["折叠图片", "音量震动条", "活动指示器", "微博动画", "倒计时-计时器", "QQ粘性动画", "雷达动画", "跑马灯效果", "水波纹效果", "文字渐变效果"]
-        titleArray = titles
+        titleArray = ["pop动画组", "CA动画组", "其他动画", "列表加载动画", "转场动画"]
+    }
+    
+    @objc fileprivate func getCurrentWave() {
+        print("skajsdha")
     }
 }
 
@@ -36,12 +38,13 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         if cell == nil {
             cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         }
+        cell?.selectionStyle = .none
         cell?.textLabel?.text = titleArray[indexPath.row]
         return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vcArr = [PictureViewController(), VolumeViewController(), ActivityViewController(), WeiBoViewController(), ClockViewController(), QQAnimationViewController(), RadarViewController(), CarouseViewController(), WaterWaveViewController(), TextViewController()]
+        let vcArr = [POPAnimationController(), CAAnimationController(), OtherViewController(), LoadTableCellController(), TransferViewController()]
         let vc = vcArr[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
